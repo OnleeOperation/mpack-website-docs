@@ -13,7 +13,7 @@ Everything on the site comes from M-Pack's own materials (the ACEs & M-Pack pres
 | Summer/day camps, 2 meals during breaks | Partner letter, brochure | Current |
 | 9/18/27/36-week cycles and "within three weeks" intake | Program proposal | Current; wording |
 | "3 in 5 Georgians experienced at least one ACE (2016-2018)" | "Why An App" document | Cite original source |
-| CDC 2024 quote | Presentation, slide 36 | Citation |
+| CDC 2024 quote | Presentation, slide 31 | Citation |
 | "Every kid can expect... meal, new experiences, overcome fears, serve, guidance, ice cream" | Presentation, slides 38-43 | Wording |
 | Mul-T mascot | Presentation, slide 18 | Approved as public mascot art |
 | 501(c)(3) status, EIN 85-0490319, legal name, Carrollton GA | Proposal and letters | Tax-status wording and whether to show the EIN publicly |

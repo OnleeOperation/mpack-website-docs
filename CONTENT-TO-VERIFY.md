@@ -16,7 +16,7 @@ Everything on the site comes from M-Pack's own materials (the ACEs & M-Pack pres
 | CDC 2024 quote | Presentation, slide 31 | Citation |
 | "Every kid can expect... meal, new experiences, overcome fears, serve, guidance, ice cream" | Presentation, slides 38-43 | Wording |
 | Mul-T mascot | Presentation, slide 18 | Approved as public mascot art |
-| 501(c)(3) status, EIN 85-0490319, legal name, Carrollton GA | Proposal and letters | Tax-status wording and whether to show the EIN publicly |
+| 501(c)(3) status, legal name, Carrollton GA (EIN intentionally not shown on the site) | Proposal and letters | Tax-status wording and whether to show the EIN publicly |
 | Demarcus Copeland, Founder & Program Director | Letters | Title and bio; add other leadership only when approved |
 | Gift-impact lines ($25/$50/$75/$100 monthly) | Sponsorship letter | Still accurate |
 

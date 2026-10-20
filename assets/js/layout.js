@@ -140,7 +140,7 @@
       '<div class="footer-grid">' +
       '<div class="footer-brand"><img src="assets/img/logo-wordmark-light.png" alt="M-Pack: Molding Passionate Active Creative Kids" width="220" height="53">' +
       '<p>Trauma-informed afterschool care that helps young people build skills, relationships, and confidence. Outside the classroom and beyond.</p>' +
-      '<div class="footer-badges"><span>' + icon('shield') + ' 501(c)(3) nonprofit</span><span>EIN 85-0490319</span><span>' + icon('pin') + ' Carrollton, Georgia</span></div></div>' +
+      '<div class="footer-badges"><span>' + icon('shield') + ' 501(c)(3) nonprofit</span><span>' + icon('pin') + ' Carrollton, Georgia</span></div></div>' +
       '<nav aria-label="Explore"><h2>Explore</h2><ul>' +
       '<li><a href="our-work.html">Our Work</a></li><li><a href="impact.html">Impact</a></li><li><a href="shop.html">Shop</a></li><li><a href="donors-club.html">Donors’ Club</a></li><li><a href="partners.html">Partners</a></li><li><a href="updates.html">Updates</a></li></ul></nav>' +
       '<nav aria-label="About M-Pack"><h2>M-Pack</h2><ul>' +

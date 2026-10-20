@@ -1,0 +1,6 @@
+.DS_Store
+# Internal source material must never be published (GitHub Pages serves every file in the repo).
+Info from MPack/
+*.pptx
+*.zip
+node_modules/

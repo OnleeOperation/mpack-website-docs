@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Give to M-Pack | Monthly or one-time</title>
+<meta name="description" content="Give to M-Pack monthly or once. Secure hosted checkout, change or cancel anytime.">
+<meta name="theme-color" content="#1e4f4d">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="M-Pack">
+<meta property="og:title" content="Give to M-Pack | Monthly or one-time">
+<meta property="og:description" content="Give to M-Pack monthly or once. Secure hosted checkout, change or cancel anytime.">
+<meta property="og:image" content="assets/img/photos/tunnel-sign.jpg">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/outfit-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<script src="assets/js/config.js"></script>
+<script src="assets/js/layout.js"></script>
+</head>
+<body>
+<mpack-header minimal></mpack-header>
+<main id="main">
+<section class="section" style="padding-top:clamp(1.5rem,3vw,2.5rem)">
+  <div class="container give-layout">
+    <div>
+      <span class="tag">Give to M-&#8288;Pack</span>
+      <h1 style="font-size:clamp(2.2rem,1.4rem + 3.4vw,3.8rem)">Help fund the next experience.</h1>
+      <p class="lead" style="margin-bottom:1.75rem">Your gift helps M-&#8288;Pack keep consistent programs, new experiences, and caring relationships in place for young people.</p>
+
+      <form id="give-form" class="panel" novalidate>
+        <div class="seg" role="radiogroup" aria-label="Giving frequency">
+          <input type="radio" name="freq" id="freq-m" value="monthly" checked><label for="freq-m">Monthly</label>
+          <input type="radio" name="freq" id="freq-o" value="once"><label for="freq-o">One time</label>
+        </div>
+        <fieldset style="border:0;padding:0;margin:0">
+          <legend class="sr-only">Choose an amount</legend>
+          <div class="amounts">
+            <input type="radio" name="amount" id="a10" value="10"><label for="a10">$10</label>
+            <input type="radio" name="amount" id="a25" value="25" checked><label for="a25">$25</label>
+            <input type="radio" name="amount" id="a50" value="50"><label for="a50">$50</label>
+            <input type="radio" name="amount" id="a75" value="75"><label for="a75">$75</label>
+            <input type="radio" name="amount" id="a100" value="100"><label for="a100">$100</label>
+            <input type="radio" name="amount" id="aother" value="other"><label for="aother">Other</label>
+          </div>
+        </fieldset>
+        <div class="field custom-amount" id="custom-wrap" hidden>
+          <label for="custom-amount">Your amount</label>
+          <span aria-hidden="true">$</span>
+          <input id="custom-amount" name="custom" type="number" min="5" step="1" inputmode="numeric" placeholder="e.g. 35">
+        </div>
+        <div class="impact-line" aria-live="polite"><svg class="i " aria-hidden="true" focusable="false"><use href="#i-heart"></use></svg><p id="impact-text"></p></div>
+        <div class="impact-line" style="background:var(--orange-200);min-height:0;align-items:center" aria-live="polite"><p id="tier-text" style="display:flex;gap:.6rem;align-items:center"></p></div>
+        <p id="give-error" class="field-error" role="alert"></p>
+        <button class="btn btn--give btn--lg btn--block" type="submit" id="give-go" data-track="give-submit">Give</button>
+        <p class="secure-note"><svg class="i " aria-hidden="true" focusable="false"><use href="#i-lock"></use></svg> <span>Secure hosted checkout. M-&#8288;Pack never sees or stores your card details. Change or cancel monthly gifts anytime.</span></p>
+      </form>
+      <div class="notice mt-2"><svg class="i " aria-hidden="true" focusable="false"><use href="#i-info"></use></svg><div><strong>Prototype.</strong> No payment is processed here. Tier levels and benefits are proposals pending M-&#8288;Pack approval.</div></div>
+    </div>
+
+    <aside class="give-aside" aria-label="About your gift">
+      <div class="photo"><img src="assets/img/photos/tunnel-beds.jpg" width="1200" height="900" alt="Raised garden beds and small greenhouses in M-Pack&rsquo;s garden." style="aspect-ratio:4/3.6"></div>
+      <div class="card mt-3" style="background:var(--teal-100)">
+        <h3 style="margin-top:0">Where your gift goes</h3>
+        <ul class="checks mt-1">
+          <li><svg class="i " aria-hidden="true" focusable="false"><use href="#i-check"></use></svg> Weekly enrichment lessons</li>
+          <li><svg class="i " aria-hidden="true" focusable="false"><use href="#i-check"></use></svg> Field trips and transportation</li>
+          <li><svg class="i " aria-hidden="true" focusable="false"><use href="#i-check"></use></svg> Meals and snacks</li>
+          <li><svg class="i " aria-hidden="true" focusable="false"><use href="#i-check"></use></svg> Activity materials</li>
+        </ul>
+        <p class="small muted mt-1">M-&#8288;Pack is a registered 501(c)(3) nonprofit &middot; EIN 85-0490319</p>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+<mpack-footer minimal></mpack-footer>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/art.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | M-Pack</title>
+<meta name="description" content="Contact M-Pack about giving, shopping, volunteering, enrollment, partnerships, or media.">
+<meta name="theme-color" content="#1e4f4d">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="M-Pack">
+<meta property="og:title" content="Contact | M-Pack">
+<meta property="og:description" content="Contact M-Pack about giving, shopping, volunteering, enrollment, partnerships, or media.">
+<meta property="og:image" content="assets/img/photos/tunnel-sign.jpg">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/outfit-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<script src="assets/js/config.js"></script>
+<script src="assets/js/layout.js"></script>
+</head>
+<body>
+<mpack-header></mpack-header>
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <span class="tag">Contact</span>
+    <h1>Say hello.</h1>
+    <p class="lead">Questions about giving, shopping, volunteering, enrolling, or partnering? Send a note and someone from M-&#8288;Pack will get back to you.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split split--wide-left" style="align-items:start">
+    <div data-form-wrap>
+      <form class="form panel" data-form="contact" novalidate>
+        <div class="form-row">
+          <div class="field"><label for="c-name">Name</label><input id="c-name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="c-email">Email</label><input id="c-email" name="email" type="email" autocomplete="email" required></div>
+        </div>
+        <div class="field"><label for="c-reason">Reason for contact</label>
+          <select id="c-reason" name="reason"><option>General</option><option>Donate</option><option>Corporate Partnership</option><option>Volunteer</option><option>Enrollment</option><option>Shop Order</option><option>Media / Community</option></select></div>
+        <div class="field"><label for="c-message">Message</label><textarea id="c-message" name="message" required></textarea></div>
+        <div class="hp" aria-hidden="true"><label>Leave blank<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <p class="consent">Please don&rsquo;t include information about any child. This form is for adults only.</p>
+        <div><button class="btn btn--primary btn--lg" type="submit">Send message</button></div>
+        <p class="form-error" role="alert"></p>
+      </form>
+      <div class="form-success" role="status"><svg class="i " aria-hidden="true" focusable="false"><use href="#i-check"></use></svg><div><h3>Thank you. Your message is in.</h3><p>We&rsquo;ll get back to you soon.</p></div></div>
+    </div>
+    <aside class="stack reveal">
+      <div class="card"><span class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-pin"></use></svg></span><h3>Where we are</h3><p>Carrollton, Georgia</p></div>
+      <div class="card"><span class="ico ico--orange"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-clock"></use></svg></span><h3>Program hours</h3><p>Monday&ndash;Thursday, 3&ndash;7 PM</p></div>
+      <div class="card"><span class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-heart"></use></svg></span><h3>Want to give?</h3><p>You can give directly in a minute.</p><a class="link-arrow" href="give.html">Give to M-&#8288;Pack <svg class="i " aria-hidden="true" focusable="false"><use href="#i-arrow"></use></svg></a></div>
+    </aside>
+  </div>
+</section>
+</main>
+<mpack-footer></mpack-footer>
+<mpack-mobile-cta></mpack-mobile-cta>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/art.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>
